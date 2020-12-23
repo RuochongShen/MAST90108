@@ -14,7 +14,7 @@ Index | Item | Notes | Further Details |
 3 | Regular meeting | Every Friday from 8th Jan at 11am; can be adjusted | N |
 
 ## 1. Presentation
-**Content:** Make a slide and have some discussion on "Learning to Explain with Complemental Examples": too much details included but only a general idea required. <br>
+**Content:** Make a slide and have some discussion on "Learning to Explain with Complemental Examples": too many details included but only a general idea required. <br>
 **To do:** 
  - Roughly read "How Can I Explain This to You? An Empirical Study of Deep Neural Network Explanation Methods" to get some general ideas on explanation models on action recognition; Maybe a presentation on it later on. 
  - List of paper to read:
@@ -51,7 +51,7 @@ Some annotations could be done. <br>
 Paper: https://openaccess.thecvf.com/content_CVPR_2019/papers/Ke_Time-Conditioned_Action_Anticipation_in_One_Shot_CVPR_2019_paper.pdf <br>
 Data files: some .txt files like "P03_cam01_P03_cereals.txt" that includes many action labels of a video (ordered by time), with lots of "SIL" or "background" at the beginning and the end of the file. <br>
 For each dataset, we can take part of each video as the observation to anticipate its future. For example, given 10% of a video in the Breakfast dataset, one could be interested in the action that's going to be performed after 1 sec, 2 sec, ..., which may be done by a deep network, as well as the reason why that deep learning model makes that prediction. That is, long-term prediction with explanation is an interesting topic to do research on. <br>
-So as a first step, we would like to annotate the data with the action labels after t seconds as well as an explanation using the last two actions, the last second action of the observation and the goal of the person in a video. The parial percentage and time t are listed below.
+So as a first step, we would like to annotate the data with the action labels after t seconds as well as an explanation using the last two actions, the last second action of the observation and the goal of the person in a video. The partial percentage and time t are listed below.
 
 Dataset | Partial Percentage of a video as Observation | Time t after the observation (sec) |
 ---- | ---- | ---- |
