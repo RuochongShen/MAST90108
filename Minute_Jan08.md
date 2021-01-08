@@ -22,7 +22,8 @@ Take the observation as a sequence with 30 timesteps; take 47 actions as an one-
 
 **To do:** 
  - First learn to use the transformer model and output without explanation
- - Construct matrix of probability of transform from one  action  to the next action: 47*47*3 (next action, next second action, next third action)
+ - Construct matrix of probability of transform from one  action  to the next action: 47\*47\*3 (next action, next second action, next third action)
+ - Further tasks above
 
 ## Additional Notes
 NA
