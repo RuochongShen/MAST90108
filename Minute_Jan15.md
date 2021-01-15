@@ -24,6 +24,7 @@ Progress: one version of the transformer code is fixed and training accuracy is 
 - Use the formal split instead of the current split and evaluate by cross-validation;
 - Concatenate one time to the time steps and take only one action as the output;
 - Read the paper and try to find and read the sample code on classification tasks to understand the transformer model;
+- Try to make slides to explain the results;
 - Maybe later, try to use word embedding and take the average, and then concatenate the time to get the input of the decoder.
 
  
