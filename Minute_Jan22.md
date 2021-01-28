@@ -27,7 +27,7 @@ From last week:
 
 **To do:** 
 - Evaluate the results for each anticipation time 1 3 5 7 10:10:60.
-- Try out the following approaches:
+- Try out the following approaches (training jointly):
   1. Build one transformer model and take both the class of the explanation and the anticipated action as the output;
   2. Build two transformer models: input -> explanation class; input + explanation class -> anticipated action;
   3. Build two transformer models: input -> anticipated action; input + anticipated action -> explanation class;
