@@ -1,6 +1,6 @@
 # Meeting Minutes
 ## Meeting Information
-**Meeting Date/Time:** 22-01-2021, 11:00 am <br>
+**Meeting Date/Time:** 29-01-2021, 3:00 pm <br>
 **Meeting Purpose:** Discussion <br>
 **Meeting Location:** Zoom <br>
 **Attendees:** Qiuhong Ke, Ruochong Shen
@@ -32,7 +32,7 @@ The result is not ideal: the explanations are not improving the accuracy of the 
 
 **To do:** 
 Try to both train jointly and separately:
-- use action order (index) instead of real time;
+- use action order (index) instead of the real time;
 - only keep one action for each action segment instead of 1 timestep per second (e.g. by masking: difference with shifting sequence);
 - try lstm first to see the results.
 
