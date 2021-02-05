@@ -10,17 +10,17 @@
 Index | Item | Notes | Further Details |
 ---- | ---- | ---- | ---- |
 1 | Fix the current approaches |  | Y |
-2 | Try the similar approaches on TCN and LSTM | | Y |
+2 | Try similar approaches on TCN and LSTM | | Y |
 3 | Try two new approaches | | Y |
 
 ## 1. Fix the current approaches
 **Content:** 
 - Explanation class: size 6 -> 5 (remove None);
 - Approach name: try to make them clear;
-- Use cross validation for testing: average on 4 splits instead of 1;
+- Use cross-validation for testing: average on 4 splits instead of 1;
 - Fix bugs: approaches should have high accuracy for small t - maybe 95% for t=1;
 
-## 2. Try the similar approaches on TCN and LSTM
+## 2. Try similar approaches on TCN and LSTM
 **Note:**
 - Try to figure out why the explanations are not improving the accuracy of the action anticipation;
 
