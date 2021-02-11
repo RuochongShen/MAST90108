@@ -18,6 +18,7 @@ Index | Item | Notes | Further Details |
 - Explanation class: size 6 -> 5 (remove None);
 - Approach name: try to make them clear;
 - Use cross-validation for testing: average on 4 splits instead of 1;
+- Use one-hot code of the explanation class in approach 4 to make it consistent with previous approaches;
 - Fix bugs: approaches should have high accuracy for small t - maybe 95% for t=1;
 
 ## 2. Try similar approaches on TCN and LSTM
